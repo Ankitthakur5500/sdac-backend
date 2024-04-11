@@ -14,6 +14,7 @@ app.post("/",(req,res)=>{
 });
 app.get("/data",(req,res)=>{
     console.log("Hello Ankit");
+    res.send("Hello Ankit Thakur");
 });
 
 app.listen(port,(req,res)=>{
