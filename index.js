@@ -12,6 +12,9 @@ app.post("/",(req,res)=>{
     console.log(req.body);
     res.send("Ankit Thakur is testing");
 });
+app.get("/",(req,res)=>{
+    res.send("Ankit Thakur is testing get /");
+});
 app.get("/data",(req,res)=>{
     console.log("Hello Ankit");
     res.send("Hello Ankit Thakur");
